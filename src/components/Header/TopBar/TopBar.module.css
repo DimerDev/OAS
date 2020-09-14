@@ -1,0 +1,21 @@
+.container {
+   display: grid;
+   grid-template-columns: 2fr 3fr 2fr 1fr;
+   grid-gap: 10px;
+   align-items: center;
+   margin-left: 10%;
+   margin-right: 10%;    
+}
+
+.icon {
+   color: rgb(0, 140, 255);
+}
+
+span {
+   font-size: 11pt ;
+}
+.item span {
+   display: inline-block;
+   width: 90%;
+   margin-left: 1%;
+}
