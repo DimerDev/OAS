@@ -1,12 +1,12 @@
 import React from 'react';
-import c from './header.module.css';
+import styl from './header.module.css';
 import Navbar from './NavBar/NavBar';
 import TopBar from './TopBar/TopBar';
 
 
 const Header = () => {
    return (
-      <div className='header'>
+      <div className={styl.Header}>
          <TopBar />
          <Navbar />
       </div>
