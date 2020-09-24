@@ -1,8 +1,18 @@
 .home {
   
    height: 500px;
+   min-height: 100px;
+   margin: 20px;
+   border: solid 1px black;
+   position: relative;
+}
+ .bgItem {
    background: url('apteka.jpg');
    background-position: center;
-   margin: 20px 20px 0 20px;
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
    
-}
+ }
