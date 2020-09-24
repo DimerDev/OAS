@@ -2,16 +2,18 @@ import React from 'react';
 import s from './home.module.css'
 
 const Home = () => {
+   const arrImg = ['DL.jpg', 'Vacine.jpg', 'kitchen.jpeg', 'Zbyt.jpg', 'Help.jpeg'];
 
 
 
    return (
       <div className={s.home}>
-         <div className={s.bgItem}>1</div>
-         <div className={s.bgItem}>2</div>
-         <div className={s.bgItem}>3</div>
-         <div className={s.bgItem}>4</div>
-         <div className={s.bgItem}>5</div>
+         {arrImg.map((item) => {
+            let style = {
+               background: `url(${item})`
+            }
+            return < div className={s.bgItem} style={style} >123213123</ div>
+         })}
       </div>
    );
 }
